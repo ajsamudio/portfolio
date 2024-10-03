@@ -1,0 +1,118 @@
+body{
+background: rgb(255,210,230);
+background: radial-gradient(circle, rgba(255,210,230,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.title{
+	font-family:Copperplate;
+	
+}
+
+.projback{
+	height: 100%;
+}
+
+.regularLink{
+color:#5B8DFB;
+font-size: 40px;
+text-align: center;
+}
+
+.activelink{
+color: #FFA500;
+font-size: 56px;
+text-align: center;
+}
+
+.nav{
+	text-align:center;
+	padding-top:25px;
+	font-size: 40px;
+}
+
+.heading1{
+color:#5B8DFB;
+padding-top:15px;
+text-align:center;
+font-size: 56px;
+}
+
+.Mainbody{
+	padding-top:20px;
+	padding-left:75px;
+	padding-right:75px;
+	font-size:18px;
+	line-height: 1.6;
+	text-align: center
+}
+
+.textspace{
+		line-height: 1.6
+}
+
+.spacing{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.bottomBorder{
+	border-bottom-style: solid;
+	color:#707070
+	}
+
+.topspacing{
+	padding-top:25px;
+	text-align: center !important;
+
+}
+
+.centter{
+	text-align:center;
+    line-height: 1.6;
+}
+
+.leftspacing{
+	padding-left: 50px;
+
+}
+
+.centeredtext{
+	text-align:center;
+	padding-top: 30px;
+	font-size:20px;
+}
+
+.hfeed site{
+	text-align: center;
+}
+
+#masthead, #secondary, #colophon, .entry-meta, .widget-title, .post-edit-link, #wrapper-navbar, .entry-header{
+		display:none;
+	}
+
+h6{
+	text-decoration: underline;
+	text-align:center;
+}
+
+h4, p{
+	color:black;
+	text-align:center;
+	font-size: 36px;
+}
+
+
+a:hover{
+	text-decoration: none !important;
+}
+
+dt {
+    font-weight: 700 !important;
+    color: #f0e68c;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+img{
+	border-radius:11px;
+}
