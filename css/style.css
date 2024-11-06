@@ -1,6 +1,6 @@
-body{
-	background: rgb(255,210,230);
-	background: radial-gradient(circle, #ffd2e6 0%, #94bbe9 100%);
+	body{
+		background: rgb(255,210,230);
+		background: radial-gradient(circle, #ffd2e6 0%, #94bbe9 100%);
 	}
 	
 	.title{
@@ -47,7 +47,7 @@ body{
 	}
 	
 	.textspace{
-			line-height: 1.6
+		line-height: 1.6
 	}
 	
 	.spacing{
@@ -110,6 +110,10 @@ body{
 		color: #D2FFEB;
 		text-decoration: underline;
 		padding: 1%;
+		font-size: 24px;
+	}
+
+	dd{
 		font-size: 24px;
 	}
 	
