@@ -14,15 +14,15 @@
 	}
 	
 	.regularLink{
-	color:#5B8DFB;
-	font-size: 40px;
-	text-align: center;
+		color:#5B8DFB;
+		font-size: 40px;
+		text-align: center;
 	}
 	
 	.activelink{
-	color: #FFA500;
-	font-size: 56px;
-	text-align: center;
+		color: #FFA500;
+		font-size: 56px;
+		text-align: center;
 	}
 	
 	.nav{
@@ -32,10 +32,10 @@
 	}
 	
 	.heading1{
-	color:#5B8DFB;
-	padding-top:15px;
-	text-align:center;
-	font-size: 42px;
+		color:#5B8DFB;
+		padding-top:15px;
+		text-align:center;
+		font-size: 42px;
 	}
 	
 	.Mainbody{
@@ -44,7 +44,7 @@
 		text-align: center
 	}
 	
-	video {
+	video, iframe {
 		width: 100%;
 		height: auto;
 	  }
@@ -90,8 +90,8 @@
 	}
 	
 	#masthead, #secondary, #colophon, .entry-meta, .widget-title, .post-edit-link, #wrapper-navbar, .entry-header{
-			display:none;
-		}
+		display:none;
+	}
 	
 	h6{
 		text-decoration: underline;
