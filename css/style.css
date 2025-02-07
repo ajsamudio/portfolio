@@ -14,15 +14,15 @@
 	}
 	
 	.regularLink{
-	color:#5B8DFB;
-	font-size: 40px;
-	text-align: center;
+		color:#5B8DFB;
+		font-size: 40px;
+		text-align: center;
 	}
 	
 	.activelink{
-	color: #FFA500;
-	font-size: 56px;
-	text-align: center;
+		color: #FFA500;
+		font-size: 56px;
+		text-align: center;
 	}
 	
 	.nav{
@@ -32,22 +32,19 @@
 	}
 	
 	.heading1{
-	color:#5B8DFB;
-	padding-top:15px;
-	text-align:center;
-	font-size: 42px;
+		color:#5B8DFB;
+		padding-top:15px;
+		text-align:center;
+		font-size: 42px;
 	}
 	
 	.Mainbody{
-		/* padding-top:20px;
-		padding-left:75px;
-		padding-right:75px; */
-		font-size:22px;
+		font-size: clamp(.5rem, 2.0vw, 1.5rem);
 		line-height: 1.6;
 		text-align: center
 	}
 	
-	video {
+	video, iframe {
 		width: 100%;
 		height: auto;
 	  }
@@ -93,8 +90,8 @@
 	}
 	
 	#masthead, #secondary, #colophon, .entry-meta, .widget-title, .post-edit-link, #wrapper-navbar, .entry-header{
-			display:none;
-		}
+		display:none;
+	}
 	
 	h6{
 		text-decoration: underline;
@@ -104,8 +101,7 @@
 	h4, p{
 		color:black;
 		text-align:center;
-		font-size: 24px;
-	}
+		font-size: clamp(.5rem, 2.0vw, 1.5rem);	}
 	
 	a:hover{
 		text-decoration: none !important;
