@@ -6,7 +6,6 @@
 	
 	.title{
 		font-family:Palatino;
-		
 	}
 	
 	.projback{
@@ -15,13 +14,13 @@
 	
 	.regularLink{
 		color:#5B8DFB;
-		font-size: 40px;
+		font-size: clamp(1rem, 2.0vw, 2rem);
 		text-align: center;
 	}
 	
 	.activelink{
 		color: #FFA500;
-		font-size: 56px;
+		font-size: clamp(1rem, 2.0vw, 1.5rem);
 		text-align: center;
 	}
 	
@@ -35,11 +34,11 @@
 		color:#5B8DFB;
 		padding-top:15px;
 		text-align:center;
-		font-size: 42px;
+		font-size: clamp(.3rem, 5.0vw, 3.5rem);
 	}
 	
 	.Mainbody{
-		font-size: clamp(.5rem, 2.0vw, 1.5rem);
+		font-size: clamp(.5rem, 2.0vw, 2rem);
 		line-height: 1.6;
 		text-align: center
 	}
@@ -75,7 +74,7 @@
 	}
 	
 	.leftspacing{
-		padding-left: 150px;
+		padding-left: 5%;
 	
 	}
 	
