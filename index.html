@@ -7,6 +7,19 @@
       <link rel="stylesheet" href="css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+      <style>
+        #cycling-text {
+            text-align: center;
+            opacity: 1;
+            animation: fadeInOut 2s infinite;
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0; }
+            25%, 75% { opacity: 1; }
+        }
+
+    </style>
     </head>
 
     <body>
@@ -28,8 +41,8 @@
           <div class="col-7"> <div class="heading1"><b>About me</b></div>
             <p class ="Mainbody">
               Hello, I am AJ Samudio. 25 years young, born and raised in the Bay area of California and currently reside in Los Angeles, CA. <br>
-              I am a Web Coder, Junior Software Engineer and Multimedia Videographer<br>
-              I graduated at California State University of Monterrey Bay, with a Cum laude in a Bachelor Degree of Science in Communication Design. <br>
+              I am a <span id="cycling-text"></span><br>
+              I graduated at <span style="color:blue" >California State University of Monterrey Bay</span>, as a Cum laude in a Bachelor Degree of Science in <span style="font-weight: bold;color:yellow;">Communication Design</span>. <br>
               I find passion in gaming, photography, video editing and exploring my creativity. <br>
               Other hobbies I enjoy are playing basketball, biking and being active.
               I am seeking a career in Sports media, UI/UX, Software Engineer or any related jobs :) <br>
@@ -84,8 +97,6 @@
           <div class="row leftspacing bottomBorder">
             <div class="col-8 spacing">
               <h2>Academic projects</h2>
-         
-            
             </div>
           </div>
           <br>
@@ -229,18 +240,33 @@
       </div>
 
       <script>
-        const collapsibleButtons = document.querySelectorAll('.collapsible-btn');
-        collapsibleButtons.forEach(button => {
-          button.addEventListener('click', () => {
-            const content = button.nextElementSibling;
-            content.classList.toggle('active');
-            collapsibleButtons.forEach(otherButton => {
-              if (otherButton !== button) {
-                otherButton.nextElementSibling.classList.remove('active');
-              }
-            });
-          });
-        });
+        // Array of texts to cycle through
+        const texts = [
+            "Web Developer",
+            "Software Engineer",
+            "Multimedia Designer",
+            "Video Editor"
+        ];
+
+        let currentIndex = 0;
+        const textElement = document.getElementById('cycling-text');
+
+        function updateText() {
+            textElement.textContent = texts[currentIndex];
+            currentIndex = (currentIndex + 1) % texts.length;
+            // textElement.style.opacity = 0;
+            // setTimeout(() => {
+            //     textElement.textContent = texts[currentIndex];
+            //     currentIndex = (currentIndex + 1) % texts.length;
+            //     textElement.style.opacity = 1;
+            // }, 500); // Match transition duration
+        }
+
+        // Initial call to show first text immediately
+        updateText();
+        
+        // Update text every 2 seconds (2000 milliseconds)
+        setInterval(updateText, 2000);
       </script>
 
     </body>
