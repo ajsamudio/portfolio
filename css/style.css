@@ -2,6 +2,7 @@
 		background: rgb(255,210,230);
 		background: radial-gradient(circle, #ffd2e6 0%, #94bbe9 100%);
 		font-family:Palatino;
+		line-height: 1.6;
 	}
 	
 
@@ -49,13 +50,9 @@
 		height: auto;
 	  }
 
-	.textspace{
-		line-height: 1.6
-	}
 	
 	.spacing{
-		padding-top: 50px;
-		padding-left: 50px;
+		padding-top: 30px;
 	}
 	
 	.bottomBorder{
@@ -76,7 +73,6 @@
 	
 	.leftspacing{
 		padding-left: 5%;
-	
 	}
 	
 	.centeredtext{
@@ -101,7 +97,7 @@
 	h4, p{
 		color:black;
 		text-align:center;
-		font-size: clamp(.5rem, 2.0vw, 1.5rem);	}
+		font-size: clamp(.5rem, 3.8vw, 1.5rem);	}
 	
 	a:hover{
 		text-decoration: none !important;
