@@ -119,32 +119,13 @@
 		border-radius:11px;
 	}
 
-	/* button */
+	#cycling-text {
+		text-align: center;
+		opacity: 1;
+		animation: fadeInOut 2s infinite;
+	}
 
-	.collapsible {
-		margin-bottom: 10px;
-		overflow: hidden;
-	  }
-	  .collapsible-btn {
-		width: 100%;
-		padding: 10px;
-		text-align: left;
-		cursor: pointer;
-		font-size: 16px;
-		transition: background-color 0.3s ease;
-	  }
-	  .collapsible-btn:hover {
-		background-color: #ddd;
-	  }
-	  .content {
-		padding: 0 10px;
-		/* max-height: 0;
-		overflow: hidden; */
-		transition: max-height 0.3s ease, padding 0.3s ease;
-	  }
-	  .content.active {
-		padding: 10px;
-		max-height: 5000px;
-	  }
-
-	
+	@keyframes fadeInOut {
+		0%, 100% { opacity: 0; }
+		25%, 75% { opacity: 1; }
+	}
