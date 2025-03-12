@@ -1,11 +1,9 @@
 	body{
-		background: rgb(255,210,230);
-		background: radial-gradient(circle, #ffd2e6 0%, #94bbe9 100%);
+		background: #0F0F0F;
 		font-family:Palatino;
 		line-height: 1.6;
 	}
 	
-
 	.title{
 		font-family:Palatino;
 	}
@@ -15,28 +13,28 @@
 	}
 	
 	.regularLink{
-		color:#5B8DFB;
+		color:#C252e1;
 		font-size: clamp(1rem, 2.0vw, 2rem);
 		text-align: center;
 	}
 	
 	.activelink{
-		color: #FFA500;
+		color: #C252e1;
 		font-size: clamp(1rem, 2.0vw, 1.5rem);
 		text-align: center;
 	}
 	
 	.nav{
 		text-align:center;
-		padding-top:25px;
-		font-size: 36px;
+		padding-top: 2.5%;
+		font-size: clamp(.3rem, 3vw, 3.5rem);
 	}
 	
 	.heading1{
-		color:#5B8DFB;
+		color: #6ecbf5;
 		padding-top:15px;
 		text-align:center;
-		font-size: clamp(.3rem, 5.0vw, 3.5rem);
+		font-size: clamp(.3rem, 3vw, 3.5rem);
 	}
 	
 	.Mainbody{
@@ -50,14 +48,14 @@
 		height: auto;
 	  }
 
-	
+
 	.spacing{
 		padding-top: 30px;
 	}
 	
 	.bottomBorder{
 		border-bottom-style: solid;
-		color:#707070
+		color:#C252e1;
 		}
 	
 	.topspacing{
@@ -90,12 +88,18 @@
 	}
 	
 	h6{
-		text-decoration: underline;
 		text-align:center;
+		font-size: clamp(.5rem, 6vw, 2rem);
+		color: #6ecbf5;
 	}
 	
+	h2{
+		color:#C252e1;
+		font-size: clamp(.5rem, 6vw, 2rem);
+	}
+
 	h4, p{
-		color:black;
+		color:#26B55B;
 		text-align:center;
 		font-size: clamp(.5rem, 3.8vw, 1.5rem);	}
 	
@@ -105,14 +109,15 @@
 	
 	dt {
 		font-weight: 700 !important;
-		color: #D2FFEB;
+		color: #586ae2;
 		text-decoration: underline;
 		padding: 1%;
-		font-size: 24px;
+		font-size: clamp(.5rem, 6vw, 2rem);
 	}
 
 	dd{
-		font-size: 24px;
+		font-size: clamp(.5rem, 6vw, 2rem);
+		color:#6ecbf5
 	}
 	
 	img{
