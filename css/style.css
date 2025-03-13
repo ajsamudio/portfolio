@@ -1,29 +1,17 @@
 	body{
 		background: #0F0F0F;
-		font-family:Palatino;
+		font-family:Montserrat;
 		line-height: 1.6;
 	}
 	
-	.title{
-		font-family:Palatino;
-	}
-	
-	.projback{
-		height: 100%;
-	}
-	
-	.regularLink{
+	.link{
 		color:#C252e1;
 		font-size: clamp(1rem, 2.0vw, 2rem);
+		font-family:Montserrat;
 		text-align: center;
 	}
-	
-	.activelink{
-		color: #C252e1;
-		font-size: clamp(1rem, 2.0vw, 1.5rem);
-		text-align: center;
-	}
-	
+
+
 	.nav{
 		text-align:center;
 		padding-top: 2.5%;
@@ -32,13 +20,13 @@
 	
 	.heading1{
 		color: #6ecbf5;
-		padding-top:15px;
-		text-align:center;
-		font-size: clamp(.3rem, 3vw, 3.5rem);
+		padding-top: 30px;
+		text-align: center;
+		font-size: clamp(.3rem, 2.7vw, 3.5rem);
 	}
 	
 	.Mainbody{
-		font-size: clamp(.5rem, 2.5vw, 2rem);
+		font-size: clamp(.5rem, 2.2vw, 1.75rem);
 		line-height: 1.6;
 		text-align: center
 	}
