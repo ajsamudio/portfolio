@@ -13,6 +13,10 @@
 
     <body>
 
+      <div id="gif-overlay" style="display: none;">
+        <img src="img/static.gif" alt="Overlay GIF" style="width: 100%; height: auto;">
+      </div>
+
       <!-- Nav top bar -->
       <div class="row nav fade-in">
         <div class="col-4 about"><a class="link" href="https://ajsamudio.github.io/portfolio/">Home</a></div>
@@ -267,7 +271,29 @@
         });
       </script>
 
-  
+    <script>
+      // Function to show the GIF overlay
+      function showGifOverlay() {
+        const overlay = document.getElementById('gif-overlay');
+        overlay.style.display = 'flex'; // Show the overlay
+
+        // Hide the overlay after 3 seconds (adjust as needed)
+        setTimeout(() => {
+          overlay.style.display = 'none';
+        }, 4000); // 3000ms = 3 seconds
+      }
+
+      // Function to start the interval
+      function startGifInterval() {
+        // Show the overlay every 10-20 seconds (random interval)
+        setInterval(() => {
+          showGifOverlay();
+        }, Math.floor(Math.random() * (15000 - 10000 + 1) + 1000)); // Random time between 10-20 seconds
+      }
+
+      // Start the interval when the page loads
+      window.onload = startGifInterval;
+    </script>
 
     </body>
 </html>
