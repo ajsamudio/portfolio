@@ -26,7 +26,6 @@
 		text-align: center;
 	}
 
-
 	.nav{
 		text-align:center;
 		padding-top: 2.5%;
@@ -125,6 +124,11 @@
 	
 	img{
 		border-radius:11px;
+
+	}
+
+	img:hover, video:hover {
+		transform: scale(1.10);
 	}
 
 	#cycling-text {
